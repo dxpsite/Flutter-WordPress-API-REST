@@ -30,7 +30,8 @@ class DetalleDelPost extends StatelessWidget {
             ),),
           ),
           HtmlWidget(
-            post['content']['rendered']
+            post['content']['rendered'],
+            webView: true,
           )
         ]
       ),
